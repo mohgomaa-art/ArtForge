@@ -1,9 +1,6 @@
 <div align="center">
-
 <br/>
-
 <img src="images/logo.png" width="160" />
-
 <br/><br/>
 
 **The artist's reference engine — search, curate, and export in one dark workspace.**
@@ -17,6 +14,12 @@
 
 <br/>
 
+<a href="https://github.com/mohgomaa-art/ArtForge/releases/download/v1.0.0/ArtForge-Setup-1.0.0.exe"><img src="https://img.shields.io/badge/⬇%20%20Download%20ArtForge%20for%20Windows-2ea44f?style=for-the-badge&logoColor=white" height="52" /></a>
+
+<br/>
+<sub>Windows 10 / 11 · 64-bit · No install required</sub>
+<br/>
+
 </div>
 
 ---
@@ -24,36 +27,17 @@
 <div align="center">
 <img src="images/1.png" width="100%" />
 </div>
-
 <br/>
-
 <div align="center">
 <img src="images/2.png" width="100%" />
 </div>
-
 <br/>
-
-
 <div align="center">
 <img src="images/4.png" width="100%" />
 </div>
-
 <br/>
-
 <div align="center">
 <img src="images/5.png" width="100%" />
-</div>
-
----
-
-## Download
-
-<div align="center">
-
-### [⬇ Download ArtForge.exe](../../releases/latest)
-
-**Windows 10 / 11 · 64-bit · No install required**
-
 </div>
 
 ---
@@ -61,10 +45,10 @@
 ## How to Use
 
 **1 — Download**
-Click the button above and save `ArtForge.exe` anywhere on your PC.
+Click the button above and save `ArtForge-Setup-1.0.0.exe` anywhere on your PC.
 
 **2 — Run**
-Double-click `ArtForge.exe`. No Python, no Node.js, no setup needed.
+Double-click the installer. No Python, no Node.js, no setup needed.
 
 **3 — Search**
 Type any subject — `figure drawing`, `gesture`, `portrait`, `anatomy` — pick your platform and quality, hit **Search**.
@@ -127,13 +111,11 @@ Not yet. Windows only for now.
 Pull requests welcome.
 
 ```bash
-git clone https://github.com/yourname/artforge.git
+git clone https://github.com/mohgomaa-art/ArtForge.git
 cd artforge
-
 # Backend
 cd backend && pip install -r requirements.txt
 uvicorn app:app --reload
-
 # Frontend
 cd frontend && npm install && npm run dev
 ```
