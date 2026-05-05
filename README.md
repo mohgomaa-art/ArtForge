@@ -33,11 +33,6 @@
 
 <br/>
 
-<div align="center">
-<img src="images/3.png" width="100%" />
-</div>
-
-<br/>
 
 <div align="center">
 <img src="images/4.png" width="100%" />
